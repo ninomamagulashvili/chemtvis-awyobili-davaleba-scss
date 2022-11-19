@@ -1,0 +1,110 @@
+body{
+    background-color:$color1;
+}
+
+
+.main{ 
+    width: 900px;
+    margin: 0 auto;
+    background-color:$color2;
+
+    .meniu{
+        height: 25px;
+        font-size: 17px;
+        font-weight: bolder;
+        
+
+        .meniuListi{
+            display: flex;
+            margin-left: 450px;
+
+            .meniuListiItem{
+                margin-left: 20px;
+
+            }
+        }
+    }
+
+    .banner{
+        display: flex;
+
+        .banner1{
+            width: 450px;
+
+            img{
+                width: 450px;
+            }
+        }
+        .banner2{
+            width: 450px;
+
+            img{
+                width: 450px;
+            }
+        } 
+    }
+
+    .galeri{
+        display: flex;
+        justify-content: space-between;
+
+        .galeriItem{
+            width:150px ;
+
+            img{
+                width: 150px;
+            }
+
+        }
+    }
+
+    .article{
+        display: flex;
+
+        .articleItem{
+            width: 200px;
+
+            img{
+                width: 200px;
+            }
+
+        }
+.content{
+    width: 700px;
+
+    .title{
+        font-size: 27px;
+
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+    }
+
+    .footer{
+        display:flex;
+        background-color:$color3 ;
+        color: $color4;
+
+        .footerLeft{
+            width: 300px;
+
+            ul{
+                li{
+
+                }
+            }
+        }
+        .center{
+       width: 300px;
+       margin-top: 40px;
+
+        }
+        .footerRight{
+            width: 300px;
+        }
+        
+    }
+}
